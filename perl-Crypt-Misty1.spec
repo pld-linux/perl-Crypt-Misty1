@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	Misty1
+%define		pdir	Crypt
+%define		pnam	Misty1
 Summary:	Crypt::Misty1 - Crypt::CBC-compliant block cipher
 Summary(pl):	Crypt::Misty1 - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Misty1
