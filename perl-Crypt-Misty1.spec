@@ -8,12 +8,12 @@
 Summary:	Crypt::Misty1 - Crypt::CBC-compliant block cipher
 Summary(pl):	Crypt::Misty1 - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Misty1
-Version:	1.1.2
+Version:	1.1.3
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e738b6764534108ae378e833d3557e75
+# Source0-md5:	ca9e4ad4db7b249751731a35cae5f9bc
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
