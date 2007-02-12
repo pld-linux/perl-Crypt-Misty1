@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Misty1
 Summary:	Crypt::Misty1 - Crypt::CBC-compliant block cipher
-Summary(pl):	Crypt::Misty1 - szyfr blokowy kompatybilny z Crypt::CBC
+Summary(pl.UTF-8):   Crypt::Misty1 - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Misty1
 Version:	1.1.3
 Release:	1
@@ -26,13 +26,13 @@ Encryption Algorithm MISTY" and in RFC 2994. In January of 2000, the
 Japanese word for "misty"), as the mandatory cipher in W-CDMA. This
 module supports the Crypt::CBC interface.
 
-%description -l pl
+%description -l pl.UTF-8
 Misty1 to 64-bitowy symetryczny szyfr blokowy ze 128-bitowym kluczem.
-Zosta≥ opracowany przez Mitsuru Matsui i opisany w dokumencie "New
+Zosta≈Ç opracowany przez Mitsuru Matsui i opisany w dokumencie "New
 Block Encryption Algorithm MISTY" oraz w RFC 2994. W styczniu 2000
-konsorcjum 3GPP wybra≥o wariant Misty1 pod nazw± KASUMI (japoÒski
-odpowiednik s≥owa "misty") jako obowi±zkowy szyfr w W-CDMA. Ten
-modu≥ obs≥uguje interfejs Crypt::CBC.
+konsorcjum 3GPP wybra≈Ço wariant Misty1 pod nazwƒÖ KASUMI (japo≈Ñski
+odpowiednik s≈Çowa "misty") jako obowiƒÖzkowy szyfr w W-CDMA. Ten
+modu≈Ç obs≈Çuguje interfejs Crypt::CBC.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
