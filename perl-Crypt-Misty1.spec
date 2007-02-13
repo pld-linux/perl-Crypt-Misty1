@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Misty1
 Summary:	Crypt::Misty1 - Crypt::CBC-compliant block cipher
-Summary(pl.UTF-8):   Crypt::Misty1 - szyfr blokowy kompatybilny z Crypt::CBC
+Summary(pl.UTF-8):	Crypt::Misty1 - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Misty1
 Version:	1.1.3
 Release:	1
