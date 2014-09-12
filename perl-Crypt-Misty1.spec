@@ -68,7 +68,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Crypt/Misty1.pm
 %dir %{perl_vendorarch}/auto/Crypt/Misty1
-%{perl_vendorarch}/auto/Crypt/Misty1/Misty1.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/Misty1/Misty1.so
 %{_mandir}/man3/*
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}
